@@ -1,0 +1,130 @@
+.letter {
+    height: 390px;
+    background-color: #7beec7;
+}
+
+@media screen and (max-width: 1000px) {
+    .letter {
+        height: 600px;
+    }
+    .letter-form {
+        margin-top: 30px;
+    }
+}
+
+.title-letter {
+    color: white;
+    text-transform: uppercase;
+    font: 700 30px/48px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.btn-letter {
+    width: 165px;
+    height: 50px;
+    background-color: white;
+    color: #7beec7;
+    border: none;
+    font-weight: bold;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.letter-form {
+    width: 550px;
+    height: 310px;
+    background-color: white;
+}
+
+.tittle-form {
+    font: 700 24px/36px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 10px 0 10px;
+}
+
+.input_1 {
+    height: 50px;
+    width: 100%;
+    border: solid 1px rgba(0, 0, 0, .1);
+    position: relative;
+}
+
+.input_1 input[type="text"] {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    padding: 0 20px;
+    float: left;
+    position: relative;
+    background-color: transparent;
+    z-index: 2;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #9a9a9a;
+}
+
+.input_1>span {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #cdcdcd;
+    transition: all .2s ease-in-out;
+    z-index: 1;
+}
+
+.input_1>span.active {
+    color: #7beec7;
+    font-size: 10px;
+    top: 0;
+    left: 5px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.textarea_1 {
+    height: 200px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .1);
+    position: relative;
+}
+
+.textarea_1 textarea {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    padding: 20px;
+    background-color: transparent;
+    float: left;
+    z-index: 2;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #9a9a9a;
+}
+
+.textarea_1>span {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transform: translateY(-50%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #cdcdcd;
+    transition: all .2s ease-in-out;
+    z-index: 1;
+}
+
+.textarea_1>span.active {
+    color: #7beec7;
+    font-size: 10px;
+    top: 0;
+    left: 5px;
+    padding: 5px;
+    background-color: #fff;
+}
