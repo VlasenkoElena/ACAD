@@ -403,16 +403,26 @@ main {
     font-size: 14px;
 }
 
+.list,
 .list-item {
     text-transform: none;
 }
 
+.list {
+    margin-left: 20px;
+}
+
+.list::before,
 .list-item::before {
     font-family: "Ionicons";
     content: '\f374';
     left: 30px;
     position: absolute;
     color: #7beec7;
+}
+
+.list::before {
+    left: 0;
 }
 
 @media (min-width: 992px) {
