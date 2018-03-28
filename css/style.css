@@ -82,6 +82,13 @@ body {
     z-index: 5;
 }
 
+@media screen and (max-width: 1024px) {
+    .title-container,
+    .title-container--center {
+        font-size: 24px;
+    }
+}
+
 .title-container::after {
     content: "";
     display: block;
@@ -187,30 +194,6 @@ body {
     }
 }
 
-
-/* bootstrap */
-
-.carousel-fade .carousel-item {
-    transform: none;
-    opacity: 0;
-}
-
-.carousel-fade .carousel-item.active {
-    transform: none;
-    animation: fadeIn .5s;
-    opacity: 1;
-    transition: all .5s;
-}
-
-@keyframe fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 main {
     margin-top: 70px;
 }
@@ -308,7 +291,10 @@ main {
 
 .portfolio-works {
     margin-bottom: 150px;
-    @media (max-width: 1000px) {
+}
+
+@media (max-width: 1000px) {
+    .portfolio-works {
         margin: auto;
     }
 }
@@ -375,11 +361,18 @@ main {
 /*CARDS*/
 
 .cards {
-    width: 340px;
+    max-width: 340px;
     height: 485px;
     margin-left: 10px;
     border-top: 5px solid #7beec7;
     box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+@media (max-width: 1024px) {
+    .cards {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
 }
 
 .cards:hover {

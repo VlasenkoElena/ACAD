@@ -3,15 +3,6 @@
     background-color: #7beec7;
 }
 
-@media screen and (max-width: 1000px) {
-    .letter {
-        height: 600px;
-    }
-    .letter-form {
-        margin-top: 30px;
-    }
-}
-
 .title-letter {
     color: white;
     text-transform: uppercase;
@@ -127,4 +118,16 @@
     left: 5px;
     padding: 5px;
     background-color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .letter {
+        height: 600px;
+    }
+    .title-letter {
+        font-size: 22px;
+    }
+    .letter-form {
+        margin-top: 30px;
+    }
 }
