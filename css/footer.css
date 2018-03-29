@@ -34,7 +34,6 @@
 
 .footer-social {
     justify-content: flex-end;
-    border: 1px solid red;
 }
 
 .footer-text {
@@ -46,7 +45,6 @@
     font-size: 18px;
     margin-left: 18px;
     cursor: pointer;
-    border: 1px border red;
 }
 
 .icon-social--contact {
@@ -69,10 +67,8 @@
     .footer-social {
         display: flex;
         justify-content: center;
-        border: 1px solid red;
     }
     .icon-social {
         margin-right: 30px;
-        border: 1px solid blue;
     }
 }
